@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+
+
+}
+
+header {
+    display: flex;
+    background: bisque;
+}
+
+.right {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+
+}
+
+.logo img,
+.profile img {
+
+    width: 50px;
+
+}
+
+header img:hover {
+
+
+    border: 1px solid black;
+}
+
+.nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+.nav li {
+    display: flex;
+
+
+    width: 20%;
+
+
+
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.nav li:hover {
+
+
+
+
+    border: 1px solid black;
+}
+
+ul li a {
+    display: flex;
+
+}
+
+a:hover {
+    color: rgba(143, 144, 109, 0.5);
+}
+
+.head {
+    text-align: center;
+    font-size: larger;
+}
+
+main {
+    display: flex;
+
+
+
+}
+
+
+.smalls {
+    display: flex;
+
+
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.card {
+
+
+
+    justify-content: space-between;
+
+
+
+
+}
